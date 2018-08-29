@@ -8,7 +8,7 @@
     var key = inKey || 'id';
     inValues.forEach(function (id) {
       inArray.forEach(function (item) {
-        if (id === item[key]){
+        if (id === item[key]) {
           result.push(item);
         }
       });
